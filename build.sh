@@ -1,2 +1,2 @@
-g++ -std=c++17 -Ofast -pthread -lcurl -lssl -lcrypto -o proxy_linux proxy/enet/callbacks.c proxy/enet/compress.c proxy/enet/host.c proxy/enet/list.c proxy/enet/packet.c proxy/enet/peer.c proxy/enet/protocol.c proxy/enet/unix.c proxy/enet/win32.c proxy/events.cpp proxy/gt.cpp proxy/http.cpp proxy/proxy.cpp proxy/sandbird/sandbird.c proxy/server.cpp proxy/utils.cpp
+g++ -std=c++17 -Ofast -pthread -lcurl -lssl -lcrypto -o proxy_linux eproxy/enet/callbacks.c eproxy/enet/compress.c eproxy/enet/host.c eproxy/enet/list.c eproxy/enet/packet.c eproxy/enet/peer.c eproxy/enet/protocol.c eproxy/enet/unix.c eproxy/enet/win32.c eproxy/events.cpp eproxy/gt.cpp eproxy/http.cpp eproxy/proxy.cpp eproxy/sandbird/sandbird.c eproxy/server.cpp eproxy/utils.cpp
 
